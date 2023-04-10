@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container {
   width: 100%;
 }
@@ -48,6 +51,7 @@
 .next {
     width: 20px;
     cursor: pointer;
+    
 }
 .prev {
   transform: rotate(180deg);
@@ -60,6 +64,7 @@
   font-weight: 600;
   width: 100%;
   border: none;
+  color: white;
   background-color: transparent;
   cursor: pointer;
 }
